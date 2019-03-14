@@ -1,7 +1,7 @@
 .NavBar_Container {
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
     
     /* Used FlexBox properties to position divs */
@@ -9,4 +9,13 @@
     background-color: #CE1141;
     /* border: 2px solid black; */
     height: 8vh;
+}
+
+.Link_Text {
+    color: white;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 0.1ch
+
 }

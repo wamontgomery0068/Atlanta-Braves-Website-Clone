@@ -12,16 +12,20 @@
 }
 
 .MLB_Logo {
-    height: 18px;
-    margin-left: 6.6%
+    height: 14px;
+    margin-left: 9.5%
 }
 
 .Offical_Text {
-    font-size: 12px;
-    /* margin-right: 0% */
+    color: black;
+    font-size: 11px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 0.1ch;
+    margin-right: 1%
 }
 
 .Blank_Profile_Logo {
     height: 20px;
-    margin-right: 8%
+    margin-right: 10.5%
 }
