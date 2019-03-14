@@ -4,9 +4,9 @@
 	justify-content: center;
 	align-items: center;
     
-    /* Using FlexBox properties to position divs */
+    /* Used FlexBox properties to position divs */
 
-    background-color: lightcoral;
-    border: 2px solid red;
-    height: 6vh;
+    background-color: #CE1141;
+    /* border: 2px solid black; */
+    height: 8vh;
 }
