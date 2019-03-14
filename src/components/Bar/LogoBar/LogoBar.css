@@ -1,12 +1,22 @@
 .LogoBar_Container {
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
     
-    /* Using FlexBox properties to position divs */
+    /* Used FlexBox properties to position divs */
 
-    background-color: lightgrey;
-    border: 2px solid black;
-    height: 10vh;
+    background-color: #13274F;
+    /* border: 2px solid black; */
+    height: 8vh;
+}
+
+.Tomahawk_Logo {
+    height: 48px;
+    margin-left: 8%
+}
+
+.Braves_Logo {
+    height: 60px;
+    margin-right: 8%
 }
