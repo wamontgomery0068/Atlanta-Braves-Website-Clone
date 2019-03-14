@@ -1,11 +1,13 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
+import Home from './components/Home/Home';
+
 
 
 
 export default (
-    <switch>
-
-    </switch>
+    <Switch>
+        <Route path = "/" exact component = {Home} />
+    </Switch>
 );
