@@ -7,7 +7,7 @@ class AuthBar extends Component {
     render(){
         return (
             <div className = "AuthBar_Container">
-                <h1> Authorization Bar </h1>
+                <h3> Authorization Bar </h3>
             </div>
         )
     }

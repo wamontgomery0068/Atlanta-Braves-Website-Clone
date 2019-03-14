@@ -1,0 +1,12 @@
+.LogoBar_Container {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+    /* Using FlexBox properties to position divs */
+
+    background-color: lightgrey;
+    border: 2px solid black;
+    height: 8vh;
+}
