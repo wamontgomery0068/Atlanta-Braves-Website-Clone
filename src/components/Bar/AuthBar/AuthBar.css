@@ -1,0 +1,12 @@
+.AuthBar_Container {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    
+    /* Using FlexBox properties to position divs */
+
+    background-color: lightblue;
+    border: 2px solid navy;
+    height: 6vh;
+}
