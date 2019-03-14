@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import MLB from '../../../Images/mlb.png';
+// import MLB from '../../../Images/mlb.png';
 
 import './AuthBar.css';
 
