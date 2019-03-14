@@ -1,5 +1,4 @@
 import React, { Component} from 'react';
-// import MLB from '../../../Images/mlb.png';
 
 import './AuthBar.css';
 
@@ -7,7 +6,9 @@ class AuthBar extends Component {
     render(){
         return (
             <div className = "AuthBar_Container">
-                <h3> Authorization Bar </h3>
+                <img className = "MLB_Logo" src = "https://www.mlbstatic.com/team-logos/league-on-dark/1.svg" alt="MLB_Logo" />
+                <p className = "Offical_Text"> The Offical Site of the Atlanta Braves </p> 
+                <img className = "Blank_Profile_Logo" alt="" src = "https://secure.ui.bamstatic.com/bridge/images/headers/default_avatar.png"/>
             </div>
         )
     }

@@ -1,12 +1,27 @@
 .AuthBar_Container {
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
     
     /* Used FlexBox properties to position divs */
 
-    background-color: white;
+    background-color: #EEEEEE;
     /* border: 2px solid black; */
     height: 4vh;
+}
+
+.MLB_Logo {
+    height: 18px;
+    margin-left: 6.6%
+}
+
+.Offical_Text {
+    font-size: 12px;
+    /* margin-right: 0% */
+}
+
+.Blank_Profile_Logo {
+    height: 20px;
+    margin-right: 8%
 }
