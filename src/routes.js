@@ -14,7 +14,7 @@ export default (
         <Route path = "/" exact component = {Home} />
         <Route path = "/news" component = {News} />
         <Route path = "/scores" component = {Scores} />
-        <Route path = "/roster" component = {Roster} />
         <Route path = "/schedule" component = {Schedule} />
+        <Route path = "/roster" component = {Roster} />
     </Switch>
 );
