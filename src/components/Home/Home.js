@@ -13,7 +13,6 @@ class Home extends Component {
                 <AuthBar />
                 <LogoBar />
                 <NavBar />
-                <h1> Home Page </h1>
             </div>
         )
     }
