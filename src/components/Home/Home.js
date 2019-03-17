@@ -10,9 +10,7 @@ class Home extends Component {
     render(){
         return (
             <div className = "Home_Container">
-                <AuthBar />
-                <LogoBar />
-                <NavBar />
+                <h1> Home Page </h1>
             </div>
         )
     }
