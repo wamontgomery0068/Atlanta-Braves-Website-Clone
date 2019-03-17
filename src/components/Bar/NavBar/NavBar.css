@@ -8,7 +8,7 @@
 
     background-color: #CE1141;
     /* border: 2px solid black; */
-    height: 8vh;
+    height: 6vh;
 }
 
 .Link_Properties {
@@ -17,7 +17,7 @@
 
 .Link_Text {
     color: white;
-    font-size: 15px;
+    font-size: 12.5px;
     font-family: 'Merriweather', serif;
     font-weight: bold;
     letter-spacing: 0.1ch
