@@ -6,27 +6,52 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 class NavBar extends Component {
+    state = {
+        dropDown: false,
+        links: ['Roster']
+    };
+
     render(){
+        const { dropDown, links } = this.state;
+
+        const linkMap = links.map((e,i) => {
+            return(
+                <div className = "dropDown_Container" key = {i}>
+                    <div className = "dropDown_Left">
+                        <p className = "top_dropDown_Text"> Team Roster </p>
+                        <Link className = "Link_Text" to = {`/${e}`} title = "Go to Roster Page"><p className = "bottom_dropDown_Text">{e}</p></Link>
+                        <p className = "bottom_bottom_dropDown_Text"> 40 Man Roster </p>
+                        <p className = "bottom_bottom_dropDown_Text"> Non-Roster-Invitees</p>
+                        <p className = "bottom_bottom_dropDown_Text"> Depth Chart </p>
+                        <p className = "bottom_bottom_dropDown_Text"> Coaches </p>
+                    </div>
+                </div>
+            )
+        })
+
         return (
             <div className = "NavBar_Container">
                 <div className = "Nav_List_Container">
-                    <button className = "Nav_DropDown_Button">
+
+                    <Link className = "Link_Text" to = "/News">
                         <p className = "DropwDown_Button_Text"> News </p>
-                    </button>
-                    <Link className = "Link_Text" to = "/scores">
-                        <p className = "DropwDown_Button_Text"> Scores</p>
                     </Link>
-                    <button className = "Nav_DropDown_Button">
-                        <p className = "DropwDown_Button_Text"> Schedule </p>
-                    </button>
-                    <button className = "Nav_DropDown_Button">
+
+                    <button className = "Nav_DropDown_Button" onClick={()=>this.setState({dropDown: !dropDown})} >
                         <p className = "DropwDown_Button_Text"> Roster </p>
                     </button>
+
+                    <Link className = "Link_Text" to = "/Scores">
+                        <p className = "DropwDown_Button_Text"> Scores</p>
+                    </Link>
+
+                    <Link className = "Link_Text" to = "/Schedule">
+                        <p className = "DropwDown_Button_Text"> Schedule </p>
+                    </Link>  
+
                 </div>
                 <div className = "Nav_DropDown_Container">
-                    <div className = "Nav_DropDown_1"></div>
-                    <div className = "Nav_DropDown_2"></div>
-                    <div className = "Nav_DropDown_3"></div>
+                    {dropDown && <div className="dropDown">{linkMap}</div>}
                 </div>
             </div>
         )
