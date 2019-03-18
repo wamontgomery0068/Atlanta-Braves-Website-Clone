@@ -11,7 +11,7 @@
     height: 30vh;
 }
 
-.Nav_List {
+.Nav_List_Container {
     display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -24,16 +24,42 @@
     height: 6vh;
 }
 
-.Nav_Text {
+.Nav_DropDown_Button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+/* .Nav_Text {
     color: white;
     font-size: 12.5px;
     font-family: 'Merriweather', serif;
     font-weight: bold;
     letter-spacing: 0.1ch
-} 
+}  */
+
+.Nav_DropDown_Container {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+    
+    /* Used FlexBox properties to position divs */
+
+    /* background-color: lightgray; */
+    /* border: 2px solid black; */
+    /* height: 24vh; */
+}
 
 .Nav_DropDown {
-    background-color: lightgray;
-    border: 2px solid black;
-    height: 24vh;
+    background-color: whitesmoke;
+    /* border: 2px solid #CE1141; */
+    box-shadow: 3px 4px 4px #CE1141;
+    height: 25vh;
+    width: 10vw;
+
 }
