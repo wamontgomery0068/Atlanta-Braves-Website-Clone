@@ -34,32 +34,84 @@
 	outline: inherit;
 }
 
-/* .Nav_Text {
+.DropwDown_Button_Text {
     color: white;
     font-size: 12.5px;
     font-family: 'Merriweather', serif;
     font-weight: bold;
     letter-spacing: 0.1ch
-}  */
+}
+
+.Link_Text {
+    text-decoration: none;
+}
 
 .Nav_DropDown_Container {
     display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: flex-start;
     
     /* Used FlexBox properties to position divs */
 
     /* background-color: lightgray; */
-    /* border: 2px solid black; */
-    /* height: 24vh; */
+    /* border: 2px solid white; */
+    height: 24vh;
 }
 
-.Nav_DropDown {
-    background-color: whitesmoke;
-    /* border: 2px solid #CE1141; */
-    box-shadow: 3px 4px 4px #CE1141;
-    height: 25vh;
-    width: 10vw;
+.dropDown_Container {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+    align-items: center;
+    
+    /* Used FlexBox properties to position divs */
 
+    background-color: #EEEEEE;
+    border: 2px solid #CE1141;
+    box-shadow: 0px 2px 5px #CE1141;
+    height: 25vh;
+    width: 12vw;
+    margin-left: -70%
+}
+
+.dropDown_Left {
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    align-items: flex-start;
+    
+    /* Used FlexBox properties to position divs */
+
+    /* border: 2px solid black; */
+    height: 22.5vh;
+    width: 10vw;
+}
+
+.top_dropDown_Text {
+    color: black;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.bottom_dropDown_Text {
+    color: black;
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-top: 8%; 
+    margin-left: 20%;
+}
+
+.bottom_bottom_dropDown_Text {
+    color: black;
+    font-size: 13px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    margin-top: -2%;
+    margin-left: 5%;
 }
