@@ -12,9 +12,9 @@ import Schedule from './components/Schedule/Schedule';
 export default (
     <Switch>
         <Route path = "/" exact component = {Home} />
-        <Route path = "/news" component = {News} />
-        <Route path = "/scores" component = {Scores} />
-        <Route path = "/schedule" component = {Schedule} />
-        <Route path = "/roster" component = {Roster} />
+        <Route path = "/News" component = {News} />
+        <Route path = "/Scores" component = {Scores} />
+        <Route path = "/Schedule" component = {Schedule} />
+        <Route path = "/Roster" component = {Roster} />
     </Switch>
 );
