@@ -10,16 +10,23 @@ class NavBar extends Component {
         return (
             <div className = "NavBar_Container">
                 <div className = "Nav_List_Container">
-                    <button className = "Nav_DropDown_Button"> News </button>
-                    <button className = "Nav_DropDown_Button"> Scores </button>
-                    <button className = "Nav_DropDown_Button"> Schedule </button>
-                    <button className = "Nav_DropDown_Button"> Roster </button>
+                    <button className = "Nav_DropDown_Button">
+                        <p className = "DropwDown_Button_Text"> News </p>
+                    </button>
+                    <Link className = "Link_Text" to = "/scores">
+                        <p className = "DropwDown_Button_Text"> Scores</p>
+                    </Link>
+                    <button className = "Nav_DropDown_Button">
+                        <p className = "DropwDown_Button_Text"> Schedule </p>
+                    </button>
+                    <button className = "Nav_DropDown_Button">
+                        <p className = "DropwDown_Button_Text"> Roster </p>
+                    </button>
                 </div>
                 <div className = "Nav_DropDown_Container">
-                    <div className = "Nav_DropDown"></div>
-                    <div className = "Nav_DropDown"></div>
-                    <div className = "Nav_DropDown"></div>
-                    <div className = "Nav_DropDown"></div>
+                    <div className = "Nav_DropDown_1"></div>
+                    <div className = "Nav_DropDown_2"></div>
+                    <div className = "Nav_DropDown_3"></div>
                 </div>
             </div>
         )
@@ -27,6 +34,7 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+
 {/* <Link className = "Link_Properties" to = "/news">
     <p className = "Link_Text"> News </p>
 </Link>
