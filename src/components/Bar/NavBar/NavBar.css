@@ -1,8 +1,21 @@
 .NavBar_Container {
 	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+    
+    /* Used FlexBox properties to position divs */
+
+    /* background-color: #CE1141; */
+    /* border: 2px solid black; */
+    height: 30vh;
+}
+
+.Nav_List {
+    display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: center;
+    align-items: center;
     
     /* Used FlexBox properties to position divs */
 
@@ -11,14 +24,16 @@
     height: 6vh;
 }
 
-.Link_Properties {
-    text-decoration: none;
-}
-
-.Link_Text {
+.Nav_Text {
     color: white;
     font-size: 12.5px;
     font-family: 'Merriweather', serif;
     font-weight: bold;
     letter-spacing: 0.1ch
+} 
+
+.Nav_DropDown {
+    background-color: lightgray;
+    border: 2px solid black;
+    height: 24vh;
 }
